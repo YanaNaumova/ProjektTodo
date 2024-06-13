@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles//style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <div class="container">
@@ -14,11 +24,12 @@
       </div>
       <div class="search">
         <input type="text" placeholder="Поиск" />
+        <span class="material-symbols-outlined"> search </span>
       </div>
       <h1 class="newEntryHeader">Новая запись</h1>
       <form action="" class="newEntryForm">
         <input type="text" placeholder="Описание" />
-        <input type="text" placeholder="Дата" />
+        <input type="datetime-local" placeholder="Дата" />
         <div class="btnNewentryContainer">
           <button class="addBtn">Добавить</button>
           <button class="cleanBtn">Очистить</button>
@@ -27,6 +38,7 @@
       <h1 class="listOfTaskHeader">Список дел</h1>
       <div class="btnListOfTaskConteiner">
         <button class="allTasksBtn">Все</button>
+        <span class="material-symbols-outlined"> check </span>
         <button class="aktivTasksBtn">Активные</button>
         <button class="completedTaskBtn">Завершенные</button>
       </div>
