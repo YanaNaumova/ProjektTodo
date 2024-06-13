@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 428px;
+  width: 100%;
+  background-color: #fffbff;
+  border: 1px solid red;
+  padding: 24px 16px;
+  gap: 16px;
+}
+
+.header h1,
+.newEntryHeader,
+.listOfTaskHeader {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.44px;
+  color: #1d1b1e;
+}
+
+.header p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.08px;
+  color: #1d1b1e;
+}
+
+.search input::placeholder,
+.newEntryForm input::placeholder {
+  color: #49454f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.search input {
+  background-color: #f7f2fa;
+  border-radius: 16px;
+  border: none;
+  padding: 8px 0px 8px 16px;
+  width: 100%;
+  height: 48px;
+}
+
+.newEntryForm {
+  background-color: #f7f2fa;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.newEntryForm input {
+  background-color: #f7f2fa;
+  border: 1px solid #79747e;
+  padding: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+  height: 56px;
+}
+
+.addBtn {
+  background-color: #6750a4;
+  color: white;
+  padding: 10px 24px;
+  width: 115px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #79747e;
+  border-radius: 100px;
+}
+
+.cleanBtn {
+  background-color: #f7f2fa;
+  border: 1px solid #79747e;
+  color: #6750a4;
+  padding: 10px 24px;
+  width: 115px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 100px;
+}
+
+.btnNewentryContainer {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.allTasksBtn,
+.aktivTasksBtn,
+.completedTaskBtn {
+  border: 1px solid #79747e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  width: 132.67px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #1d1b20;
+}
+
+.allTasksBtn {
+  background-color: #e8def8;
+  border-radius: 100px 0px 0px 100px;
+}
+
+.completedTaskBtn {
+  background-color: #fffbff;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.aktivTasksBtn {
+  background-color: #fffbff;
+}
+
+.btnListOfTaskConteiner {
+  display: flex;
+}
+
+.listOfTask {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0 8px 8px;
+  gap: 8px;
+  background-color: #f7f2fa;
+  border-radius: 16px;
+}
+
+.taskDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #1d1b20;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.81px;
+  /* opacity: 0.8; */
+}
+
+.task input[type="checkbox"] {
+  accent-color: #d0bcff;
+}
